@@ -1,0 +1,34 @@
+{
+  "name": "reactlearn",
+  "version": "1.0.0",
+  "description": "This is react learn by Saurav Srivastava",
+  "homepage": "https://github.com/SauravSrivastava27/namasteReact#readme",
+  "bugs": {
+    "url": "https://github.com/SauravSrivastava27/namasteReact/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauravSrivastava27/namasteReact.git"
+  },
+  "license": "ISC",
+  "author": "Saurav",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "targets": {
+    "main": false
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "browserslist": [
+    "last 10 version"
+  ]
+}
